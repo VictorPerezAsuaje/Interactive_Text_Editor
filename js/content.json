@@ -1,0 +1,39 @@
+{
+    "entityId": "0",
+    "blocks": 
+    [
+        {
+            "id": "asdasd",
+            "type" : "heading",
+            "class": "editor-item",
+            "data": {
+                "type": "3",
+                "content": "Hello there!",
+                "extraCss": ""
+            }
+        },
+        {
+            "id": "qweqwe",
+            "type" : "paragraph",
+            "class": "editor-item",
+            "data": {
+                "content": "Quia et suscipit <b>suscipit recusandae consequuntur expedita</b> et cum reprehenderit molestiae ut ut quas totam nostrum rerum est autem sunt rem eveniet architecto.",
+                "extraCss": ""
+            }
+        },
+        {
+            "id": "zxczxc",
+            "type" : "figure",
+            "class": "editor-item",
+            "data": {
+                "file" : {
+                    "url" : "https://cdn.pixabay.com/photo/2021/10/07/15/12/wine-6688901_960_720.jpg",
+                    "altText": "Imagen de un vino"
+                },
+                "caption" : "Esto es una imagen de un vino",
+                "imageClass": "fluid",
+                "extraCss": ""
+            }
+        }
+    ]
+}

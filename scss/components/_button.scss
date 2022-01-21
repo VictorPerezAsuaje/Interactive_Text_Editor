@@ -1,0 +1,286 @@
+button, a, label{
+  &.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: $secondary;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.35rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  
+    &:hover {
+      color: $secondary;
+      text-decoration: none;
+    }
+  
+    &:focus{
+      outline: 0;
+      box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+    }
+  
+    &:disabled {
+      opacity: 0.65;
+    }
+  
+    &:not(:disabled):not(.disabled) {
+      cursor: pointer;
+    }
+  
+    &-primary {
+      color: $white;
+      background-color: $primary;
+      border-color: $primary;
+  
+      &:hover{
+        color: $white;
+        background-color: $dark-blue;
+        border-color: $dark-blue;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $dark-blue;
+        border-color: $dark-blue;
+        box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+      }
+    }
+
+    &-secondary {
+      color: $white;
+      background-color: $secondary;
+      border-color: $secondary;
+  
+      &:hover{
+        color: $white;
+        background-color: $dark;
+        border-color: $dark;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $dark;
+        border-color: $dark;
+        box-shadow: 0 0 0 0.2rem rgba(151, 153, 166, 0.5);
+      }
+    }
+
+    &-success {
+      color: $white;
+      background-color: $success;
+      border-color: $success;
+  
+      &:hover{
+        color: $white;
+        background-color: $success-dark;
+        border-color: $success-dark;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $success-dark;
+        border-color: $success-dark;
+        box-shadow: 0 0 0 0.2rem rgba(62, 208, 156, 0.5);
+      }
+    }
+
+    &-info {
+      color: $white;
+      background-color: $info;
+      border-color: $info;
+  
+      &:hover{
+        color: $white;
+        background-color: $info-dark;
+        border-color: $info-dark;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $info-dark;
+        border-color: $info-dark;
+        box-shadow: 0 0 0 0.2rem rgba(84, 196, 212, 0.5);
+      }
+    }
+
+    &-warning {
+      color: $white;
+      background-color: $warning;
+      border-color: $warning;
+  
+      &:hover{
+        color: $white;
+        background-color: $warning-dark;
+        border-color: $warning-dark;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $warning-dark;
+        border-color: $warning-dark;
+        box-shadow: 0 0 0 0.2rem rgba(247, 203, 91, 0.5);
+      }
+    }
+
+    &-danger {
+      color: $white;
+      background-color: $danger;
+      border-color: $danger;
+  
+      &:hover{
+        color: $white;
+        background-color: $danger-dark;
+        border-color: $danger-dark;
+      }
+  
+      &:focus, 
+      &.focus{
+        color: $white;
+        background-color: $danger-dark;
+        border-color: $danger-dark;
+        box-shadow: 0 0 0 0.2rem rgba(235, 101, 88, 0.5);
+      }
+    }
+
+    &-outline{
+      &-primary {
+        color: $primary;
+        border-color: $primary;
+    
+        &:hover{
+          color: $white;
+          background-color: $primary-dark;
+          border-color: $dark-blue;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $dark-blue;
+          border-color: $dark-blue;
+          box-shadow: 0 0 0 0.2rem rgba(105, 136, 228, 0.5);
+        }
+      }
+  
+      &-secondary {
+        color: $secondary;
+        border-color: $secondary;
+    
+        &:hover{
+          color: $white;
+          background-color: $dark;
+          border-color: $dark;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $dark;
+          border-color: $dark;
+          box-shadow: 0 0 0 0.2rem rgba(151, 153, 166, 0.5);
+        }
+      }
+  
+      &-success {
+        color: $success;
+        border-color: $success;
+    
+        &:hover{
+          color: $white;
+          background-color: $success-dark;
+          border-color: $success-dark;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $success-dark;
+          border-color: $success-dark;
+          box-shadow: 0 0 0 0.2rem rgba(62, 208, 156, 0.5);
+        }
+      }
+  
+      &-info {
+        color: $info;
+        border-color: $info;
+    
+        &:hover{
+          color: $white;
+          background-color: $info-dark;
+          border-color: $info-dark;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $info-dark;
+          border-color: $info-dark;
+          box-shadow: 0 0 0 0.2rem rgba(84, 196, 212, 0.5);
+        }
+      }
+  
+      &-warning {
+        color: $warning;
+        border-color: $warning;
+    
+        &:hover{
+          color: $white;
+          background-color: $warning-dark;
+          border-color: $warning-dark;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $warning-dark;
+          border-color: $warning-dark;
+          box-shadow: 0 0 0 0.2rem rgba(247, 203, 91, 0.5);
+        }
+      }
+  
+      &-danger {
+        color: $danger;
+        border-color: $danger;
+    
+        &:hover{
+          color: $white;
+          background-color: $danger-dark;
+          border-color: $danger-dark;
+        }
+    
+        &:focus, 
+        &.focus{
+          color: $danger-dark;
+          border-color: $danger-dark;
+          box-shadow: 0 0 0 0.2rem rgba(235, 101, 88, 0.5);
+        }
+      }
+    }
+  }
+
+  &:disabled,
+  &.disabled{
+    opacity: 0.7;
+    cursor: none;
+    pointer-events: none;
+  }
+
+  &.btn-circle {
+    border-radius: 100%;
+    height: 2.5rem;
+    width: 2.5rem;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+  
+  

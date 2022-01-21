@@ -1,0 +1,126 @@
+/* TEXT */
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* ALIGNMENT */
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* COLOR */
+
+.bg-color{
+    background-color: transparent;
+
+    &-white{
+        color: $white;
+    }
+
+    &-primary{
+        background-color: $primary;
+    }
+    
+    &-secondary{
+        background-color: $secondary;
+    }
+    
+    &-danger{
+        background-color: $danger;
+    }
+    
+    &-warning{
+        background-color: $warning;
+    }
+    
+    &-success{
+        background-color: $success;
+    }
+    
+    &-info{
+        background-color: $info;
+    }
+}
+
+.border-color{
+    border-color: transparent;
+    
+    &-white{
+        color: $white;
+    }
+
+    &-primary{
+        border-color: $primary;
+    }
+    
+    &-secondary{
+        border-color: $secondary;
+    }
+    
+    &-danger{
+        border-color: $danger;
+    }
+    
+    &-warning{
+        border-color: $warning;
+    }
+    
+    &-success{
+        border-color: $success;
+    }
+    
+    &-info{
+        border-color: $info;
+    }
+}
+
+.text-color{
+    &-white{
+        color: $white;
+    }
+
+    &-primary{
+        color: $primary;
+    }
+    
+    &-secondary{
+        color: $secondary;
+    }
+    
+    &-danger{
+        color: $danger;
+    }
+    
+    &-warning{
+        color: $warning;
+    }
+    
+    &-success{
+        color: $success;
+    }
+    
+    &-info{
+        color: $info;
+    }
+}
+
+.shadow{
+    box-shadow: 5px 5px 15px 10px rgba(0,0,0,0.1);
+}

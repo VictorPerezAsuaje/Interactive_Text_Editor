@@ -1,0 +1,51 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: $white;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+
+  hr {
+    margin: 0 2%;
+  }
+
+  header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid $light-blue;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+
+  .card-title {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-weight: bold;
+  }
+
+  .card-subtitle {
+    margin-top: -0.375rem;
+    margin-bottom: 0;
+  }
+
+  .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+  }
+
+  a{
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
+  footer {
+    padding: 0.75rem 1.25rem;
+    background-color: $light;
+    border-top: 1px solid $light-blue;
+  }
+}

@@ -1,0 +1,29 @@
+figure{
+    img{
+        width: 100%;
+        margin-bottom: 0.75rem;
+        line-height: 1;
+        height: auto;
+
+        &.fluid{
+            object-fit: cover;
+        }
+    }
+
+    figcaption{
+        font-size: 90%;
+        font-style: italic;
+        color: $secondary;
+        padding: 0.5rem 1rem;
+    }
+}
+
+img{
+    height: auto;
+    width: auto;
+    border-radius: 0.25rem;
+
+    &.fluid{
+        object-fit: cover;
+    }
+}
